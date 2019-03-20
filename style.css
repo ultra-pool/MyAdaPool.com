@@ -1034,12 +1034,24 @@ community area css
   background: #EA4335;
 }
 
+.single-community a.facebook i {
+  background: #3b5998;
+}
+
 .single-community a.linkedin i {
   background: #0e76a8;
 }
 
+.single-community a.comments i {
+  background: #fff9ae;
+}
+
 .single-community a.dribbble i {
   background: #E84C88;
+}
+
+.single-community a.meetup i {
+  background: #e2373c;
 }
 
 .single-community a.github i {
@@ -1048,6 +1060,10 @@ community area css
 
 .single-community a.behance i {
   background: #B4B4B4;
+}
+
+.single-community a.telegram i {
+  background: #0088cc;
 }
 
 .single-community a.youtube i {
@@ -1060,6 +1076,10 @@ community area css
 
 .single-community a.flickr i {
   background: #F93FA2;
+}
+
+.single-community a.reddit i {
+  background: #e74a1e;
 }
 
 /*===================
