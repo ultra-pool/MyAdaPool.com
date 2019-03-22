@@ -1,2 +1,2 @@
-# adareward.com
-Landing page for ADA Stake Pool
+# MyAdaPool.com
+Landing page for MyAdaPool.com

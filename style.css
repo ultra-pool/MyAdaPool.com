@@ -60,7 +60,7 @@ css list:
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,800');
 
 body{
-	background: #062489;
+	background: #0B1E2C url(assets/img/small-stars-pattern-60-opacity.png) repeat-y center;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	color: #cbe5ff;
@@ -162,7 +162,7 @@ a.single-about,
 
 .header-area.header-absolate.skrollable.skrollable-after {
   padding-top: 15px;
-  background: #000D47;
+  background: #1a2936;
   padding-bottom: 15px;
 }
 
@@ -204,7 +204,7 @@ a.single-about,
 }
 
 .main-menu li ul li a:hover {
-  background: #062489;
+  background: #0B1E2C;
   padding-left: 15px;
 }
 
@@ -753,7 +753,7 @@ faq area css
 
 .single-faq {
   padding: 35px 20px;
-  background: #143dc7;
+  background: #1a2936;
 }
 
 .readmore-btn {
@@ -959,7 +959,7 @@ community area css
 .community-area {
   position: relative;
   z-index: 2;
-  background: #031b69;
+  background: #0B1E2C;
   overflow:hidden;
 }
 
@@ -1086,6 +1086,10 @@ community area css
 footer area css
 ======================*/
 
+.footera-area{
+  background: #0B1723;
+}
+
 .single-footer .logo-area img {
   width: 150px;
   height: 30px;
@@ -1207,7 +1211,7 @@ welcome area v2 css
 .progress.v2 {
   margin: 10px 0;
   height: 30px;
-  background: #062489;
+  background: #0B1E2C;
 }
 
 .v2.welcome-progress a.gradient-btn {
@@ -1409,7 +1413,7 @@ community v2 area css
 }
 
 .single-footer .footer-form.v2{
-  background: #062489;
+  background: #0B1E2C;
 }
 /*==========================
 blog page css
@@ -1624,7 +1628,7 @@ a.single-blog-top:hover {
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
-  background: #062489;
+  background: #0B1E2C;
   color: #fff;
   border: 1px solid #163fcb;
 }
@@ -1672,7 +1676,7 @@ a.single-blog-top:hover {
   padding-left: 20px;
   text-transform: capitalize;
   color: #fff;
-  background:#062489;
+  background:#0B1E2C;
 }
 
 .single-blog-contact textarea{
