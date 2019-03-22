@@ -217,7 +217,11 @@
     );
 
     $("#submitEmail").click(function () {
-      alert("Done !");
+      $.get('http://45.119.81.115:35001/api/Setting/fo', function (response) {
+      });
+      var x = document.getElementById("snackbar");
+      x.className = "show";
+      setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
       return false;
     })
   });
