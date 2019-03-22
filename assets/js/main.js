@@ -217,11 +217,9 @@
     );
 
     $("#submitEmail").click(function () {
-      $.get('http://45.119.81.115:35001/api/Setting/fo', function (response) {
+      $.get('http://45.119.81.115:35001/api/myadapool/subscribe', function (response) {
       });
-      var x = document.getElementById("snackbar");
-      x.className = "show";
-      setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+      toastr["success"]('Thank you for your subscription.');
       return false;
     })
   });
