@@ -217,7 +217,7 @@
     $("#submitEmail").click(function () {
       var email = $('#email').val();
       if (email) {
-        $.get('https://ez-exe.com:35002/api/myadapool/subscribe?email=' + email, function (response) {
+        $.get('https://subscribe.myadapool.com/api/myadapool/subscribe?email=' + email, function (response) {
         });
         toastr["success"]('Thank you for your subscription.');
       }
